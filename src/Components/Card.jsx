@@ -23,7 +23,7 @@ function Card() {
       <div>
         <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Advantages_and_Disadvantages_of_artificial_intelligence.jpg"/>
         <span className='text-gold-theme font-bold my-2'>OUR APPROACH</span>
-        <p className='text-white font-popins text-xl'>Investing in new energy markets</p>
+        <p className='text-white font-popins text-xl'>Investing in AI</p>
       </div>
       <div>
         <img src="https://149351892.v2.pressablecdn.com/wp-content/uploads/2016/03/image3.jpg"/>
