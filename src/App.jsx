@@ -9,6 +9,7 @@ import Newslatter from './Components/Newslatter'
 import Card from './Components/Card'
 import Particles1 from './Components/Particles_1'
 import Footer from './Components/Footer'
+import ExSection from './Components/ExSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
         <Navbar/>
         <Hero/>
         <About/>
+        <ExSection/>
         <Newslatter/>
         <Card/>
         <Footer/>
