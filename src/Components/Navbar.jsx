@@ -22,10 +22,10 @@ function Navbar() {
         <li className='p-4 cursor-pointer hover:text-gold-theme'>About</li>
         <li className='p-4 cursor-pointer hover:text-gold-theme'>Contact</li>
       </motion.ul>
-      <div onClick={handleNav} className='block md:hidden '>
+      <div onClick={handleNav} className='block md:hidden text-gold-theme'>
           {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
       </div>
-      <ul className={nav ? 'fixed left-0 top-0 w-[90%] h-full border-r border-r-gray-900 bg-[#020024] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+      <ul className={nav ? 'fixed left-0 top-0 w-[90%] h-full border-r border-r-gray-900 bg-black ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
         <h1 className='w-full text-3xl font-bold text-gold-theme m-4 '>BLUFFIN GOLD GROUP .</h1>
           <li className='p-4 border-b border-gray-600'>Home</li>
           <li className='p-4 border-b border-gray-600'>Company</li>
