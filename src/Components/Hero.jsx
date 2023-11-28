@@ -26,7 +26,7 @@ function Hero() {
             transition={{ duration: 0.4 }}
             className="md:text-3xl sm:text-3xl text-xl font-bold py-4"
           >
-            IMPLEMENTING AND INVESTING in{" "}
+            INVESTING in & IMPLEMENTING{" "}
           </motion.p>
 
           <motion.p
