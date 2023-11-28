@@ -12,7 +12,7 @@ function About() {
             title="Yt"
           />
         </div>
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center md:ml-8">
           <motion.p
             initial={{ opacity: 0, y: 40 }}
             viewport={{ once: true }}
@@ -31,17 +31,14 @@ function About() {
             className="text-black font-popins "
           >
             <span className="text-gold-theme">BLUEFIN GOLD GROUP</span> is a
-            company registered in Dubai which already have multi-billion dollar{" "}
-            <span className="text-gold-theme">infrastructure projects</span>{" "}
-            assigned to it for implementation, large-scale{" "}
-            <span className="text-gold-theme">smart technology</span> driven
-            projects lined up on a governmental and business level, and
-            significant funding available to invest in AI companies (already
-            growing the{" "}
-            <span className="text-gold-theme">AI investment portfolio</span>{" "}
-            with some strategic investments) that have the potential to become
-            unicorns or at least high growth high impact businesses that
-            delivers both return on investment and return on impact and are
+            company involved in the implementation of{" "}
+            <span className="text-gold-theme">large-scale infrastructure</span>
+            and <span className="text-gold-theme">smart technology</span> driven
+            projects for governments and businesses, as well as{" "}
+            <span className="text-gold-theme">investments in AI</span> and other
+            smart technology related companies that are or have the potential to
+            be high-growth high-impact businesses that delivers both return on
+            investment and return on impact in various industries and are
             synergistic with our mission to help shape a better future in the
             Smart Technology Era.
           </motion.p>

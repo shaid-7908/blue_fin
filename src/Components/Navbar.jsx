@@ -10,7 +10,7 @@ function Navbar() {
     setNav(!nav);
   };
   return (
-    <div className="flex md:flex-col justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white uppercase ">
+    <div className="flex md:flex-row justify-around items-center h-24 bg-[#1f3878] bg-opacity-50  mx-auto px-4 text-white uppercase ">
       <div className="flex flex-col justify-center items-center">
         <img src={logo} className="w-[100px]" />
         <h1 className=" text-base font-bold text-gold-theme">

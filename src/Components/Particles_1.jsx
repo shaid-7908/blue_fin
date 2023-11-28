@@ -33,11 +33,11 @@ export default function Particles1() {
         interactivity: {
           events: {
             onClick: {
-              enable: false,
+              enable: true,
               mode: "push",
             },
             onHover: {
-              enable: false,
+              enable: true,
               mode: "repulse",
             },
             resize: true,
@@ -78,7 +78,7 @@ export default function Particles1() {
               enable: true,
               area: 800,
             },
-            value: 100,
+            value: 70,
           },
           opacity: {
             value: 1,
@@ -87,7 +87,7 @@ export default function Particles1() {
             type: "circle",
           },
           size: {
-            value: { min: 1, max: 6 },
+            value: { min: 2, max: 5 },
           },
         },
         detectRetina: true,

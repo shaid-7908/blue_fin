@@ -4,5 +4,47 @@
 @tailwind utilities;
 
 body{
-    background-color: rgb(36, 36, 163);
+    background-color: #0e40bf;
+}
+
+.container1 {
+  position: relative;
+}
+
+.container1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('https://template.viserlab.com/hyiplab/assets/images/hero-1.jpg');
+  opacity: 0.4; /* Adjust the opacity as needed */
+  z-index: -1;
+}
+.content2{
+  /* Style your content container */
+  position: relative; /* Establish a stacking context */
+  z-index: 1; /* Ensure the content is above the overlay */
+}
+
+::-webkit-scrollbar {
+  width: 5px; /* Change the width of the scrollbar */
+ 
+}
+
+/* Track (the area the thumb moves on) */
+::-webkit-scrollbar-track {
+  background: #0e40bf; /* Change the color of the track */
+}
+
+/* Thumb (the draggable handle) */
+::-webkit-scrollbar-thumb {
+  background: #ffffff; /* Change the color of the thumb */
+  border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0e40bf; /* Change the color of the thumb on hover */
 }
