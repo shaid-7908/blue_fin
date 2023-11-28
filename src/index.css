@@ -19,6 +19,7 @@ body{
   bottom: 0;
   left: 0;
   background-image: url('https://template.viserlab.com/hyiplab/assets/images/hero-1.jpg');
+  background-size: cover;
   opacity: 0.4; /* Adjust the opacity as needed */
   z-index: -1;
 }
