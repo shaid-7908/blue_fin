@@ -16,18 +16,17 @@ function Footer() {
         </h1>
 
         <p className="py-1">
-          <span className="font-bold">Investing in </span>Large Scale
-          infrastructure Projects , National Ai strategies , large scale
-          ai-driven digital transformation ,Smart Technology , sustainable
-          development , smart cities
+          is a company involved in the implementation of large-scale
+          infrastructure and smart technology driven projects for governments
+          and businesses, as well as investments in AI and other smart
+          technology related companies that are or have the potential to be
+          high-growth high-impact businesses that delivers both return on
+          investment and return on impact in various industries and are
+          synergistic with our mission to help shape a better future in the
+          Smart Technology Era.
         </p>
 
-        <p className="py-1">
-          <span className="font-bold">Implementing</span> Large Scale
-          infrastructure Projects , National Ai strategies , large scale
-          ai-driven digital transformation ,Smart Technology , sustainable
-          development , smart cities
-        </p>
+       
         <div className="flex justify-between md:w-[75%] my-6 text-black">
           <FaFacebookSquare size={30} />
           <FaInstagram size={30} />

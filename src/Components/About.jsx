@@ -4,9 +4,8 @@ import { motion } from "framer-motion";
 function About() {
   return (
     <div className="w-full z-50 bg-gray-200  py-16 px-4">
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-4">
-        <div></div>
-        <div className="flex flex-col justify-center md:ml-8">
+      <div className="max-w-[1240px] mx-auto flex justify-center items-center">
+        <div className="flex flex-col  justify-center md:w-[60%] items-start  md:ml-8">
           <motion.p
             initial={{ opacity: 0, y: 40 }}
             viewport={{ once: true }}
@@ -47,8 +46,8 @@ function About() {
           </motion.button>
         </div>
       </div>
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-4 my-2">
-        <div className="flex flex-col justify-center md:mr-8">
+      <div className="max-w-[1240px] mx-auto flex justify-center items-center my-2 ">
+        <div className="flex flex-col justify-center items-start md:w-[60%] md:ml-8">
           <motion.p
             initial={{ opacity: 0, y: 40 }}
             viewport={{ once: true }}
@@ -63,11 +62,14 @@ function About() {
             viewport={{ once: true }}
             whileInView={{ opacity: 1, y: 0, amount: 0.5 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-black font-popins  capitalize my-4"
+            className="text-black font-popins  capitalize my-4 flex flex-col items-start justify-start"
           >
-            Large Scale infrastructure Projects , National Ai strategies , large
-            scale ai-driven digital transformation ,Smart Technology ,
-            sustainable development , smart cities
+            <span>-Large Scale infrastructure Projects</span>{" "}
+            <span>-National Ai strategies </span>{" "}
+            <span>-large scale ai-driven digital transformation</span>{" "}
+            <span>-Smart Technology </span>{" "}
+            <span>-sustainable development</span>
+            <span>-smart cities</span>
           </motion.p>
           <motion.button
             initial={{ opacity: 0, y: 40 }}
@@ -120,9 +122,8 @@ function About() {
           </motion.button>
         </div> */}
       </div>
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-4 my-2">
-        <div></div>
-        <div className="flex flex-col justify-center md:ml-8">
+      <div className="max-w-[1240px] mx-auto flex justify-center items-center my-2 ">
+        <div className="flex flex-col justify-center md:w-[60%] items-start  md:ml-8">
           <motion.p
             initial={{ opacity: 0, y: 40 }}
             viewport={{ once: true }}
@@ -137,11 +138,14 @@ function About() {
             viewport={{ once: true }}
             whileInView={{ opacity: 1, y: 0, amount: 0.5 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-black font-popins  capitalize my-4"
+            className="text-black font-popins  capitalize my-4 flex flex-col items-start justify-start"
           >
-            Large Scale infrastructure Projects , National Ai strategies , large
-            scale ai-driven digital transformation ,Smart Technology ,
-            sustainable development , smart cities
+            <span>-Large Scale infrastructure Projects</span>{" "}
+            <span>-National Ai strategies </span>{" "}
+            <span>-large scale ai-driven digital transformation</span>{" "}
+            <span>-Smart Technology </span>{" "}
+            <span>-sustainable development</span>
+            <span>-smart cities</span>
           </motion.p>
           <motion.button
             initial={{ opacity: 0, y: 40 }}
