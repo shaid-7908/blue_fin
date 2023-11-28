@@ -40,7 +40,7 @@ function Navbar() {
             : "ease-in-out duration-500 fixed left-[-100%]"
         }
       >
-        <h1 className="w-full text-3xl font-bold text-gold-theme m-4 ">
+        <h1 className="w-full text-2xl font-bold text-gold-theme m-4 ">
           BLUEFIN GOLD GROUP 
         </h1>
         <li className="p-4 border-b border-gray-100">Home</li>
