@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="w-full z-50 bg-gray-200  py-16 px-4">
       <div className="max-w-[1240px] mx-auto flex justify-center items-center">
-        <div className="flex flex-col  justify-center md:w-[60%] items-start  md:ml-8">
+        <div className="flex flex-col  justify-center md:w-[60%] items-center  md:ml-8">
           <motion.p
             initial={{ opacity: 0, y: 40 }}
             viewport={{ once: true }}
@@ -21,7 +21,7 @@ function About() {
             viewport={{ once: true }}
             whileInView={{ opacity: 1, y: 0, amount: 0.5 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-black font-popins "
+            className="text-black font-popins text-center"
           >
             <span className="text-gold-theme">BLUEFIN GOLD GROUP</span> is a
             company involved in the implementation of{" "}
@@ -35,25 +35,17 @@ function About() {
             synergistic with our mission to help shape a better future in the
             Smart Technology Era.
           </motion.p>
-          <motion.button
-            initial={{ opacity: 0, y: 40 }}
-            viewport={{ once: true }}
-            whileInView={{ opacity: 1, y: 0, amount: 0.5 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="border-gold-theme border-2 text-gold-theme w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 hover:bg-gold-theme hover:text-black"
-          >
-            Learn More
-          </motion.button>
+         
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto flex justify-center items-center my-2 ">
-        <div className="flex flex-col justify-center items-start md:w-[60%] md:ml-8">
+        <div className="flex flex-col justify-center items-center md:w-[60%] md:ml-8">
           <motion.p
             initial={{ opacity: 0, y: 40 }}
             viewport={{ once: true }}
             whileInView={{ opacity: 1, y: 0, amount: 0.5 }}
             transition={{ duration: 0.5 }}
-            className="md:text-4xl sm:text-3xl text-2xl font-semibold py-2 text-gold-theme font-popins "
+            className="md:text-xl sm:text-xl text-2xl font-semibold py-2 text-gold-theme font-popins "
           >
             Investing in
           </motion.p>
@@ -62,24 +54,15 @@ function About() {
             viewport={{ once: true }}
             whileInView={{ opacity: 1, y: 0, amount: 0.5 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-black font-popins  capitalize my-4 flex flex-col items-start justify-start"
+            className="text-black font-popins  capitalize my-4 flex flex-col items-center justify-start"
           >
-            <span>-Large Scale infrastructure Projects</span>{" "}
-            <span>-National Ai strategies </span>{" "}
-            <span>-large scale ai-driven digital transformation</span>{" "}
-            <span>-Smart Technology </span>{" "}
-            <span>-sustainable development</span>
-            <span>-smart cities</span>
+            <span>Large Scale infrastructure Projects</span>{" "}
+            <span>National Ai strategies </span>{" "}
+            <span>large scale ai-driven digital transformation</span>{" "}
+            <span>Smart Technology </span> <span>sustainable development</span>
+            <span>smart cities</span>
           </motion.p>
-          <motion.button
-            initial={{ opacity: 0, y: 40 }}
-            viewport={{ once: true }}
-            whileInView={{ opacity: 1, y: 0, amount: 0.5 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="border-gold-theme border-2 text-gold-theme w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 hover:bg-gold-theme hover:text-black"
-          >
-            Learn More
-          </motion.button>
+         
         </div>
         {/* <div className="flex flex-col justify-center md:ml-8">
           <motion.p
@@ -123,13 +106,13 @@ function About() {
         </div> */}
       </div>
       <div className="max-w-[1240px] mx-auto flex justify-center items-center my-2 ">
-        <div className="flex flex-col justify-center md:w-[60%] items-start  md:ml-8">
+        <div className="flex flex-col justify-center md:w-[60%] items-center  md:ml-8">
           <motion.p
             initial={{ opacity: 0, y: 40 }}
             viewport={{ once: true }}
             whileInView={{ opacity: 1, y: 0, amount: 0.5 }}
             transition={{ duration: 0.5 }}
-            className="md:text-4xl sm:text-3xl text-2xl font-semibold py-2 text-gold-theme font-popins "
+            className="md:text-xl sm:text-xl text-2xl font-semibold py-2 text-gold-theme font-popins "
           >
             Implementing
           </motion.p>
@@ -138,14 +121,13 @@ function About() {
             viewport={{ once: true }}
             whileInView={{ opacity: 1, y: 0, amount: 0.5 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-black font-popins  capitalize my-4 flex flex-col items-start justify-start"
+            className="text-black font-popins  capitalize my-4 flex flex-col items-center justify-start"
           >
-            <span>-Large Scale infrastructure Projects</span>{" "}
-            <span>-National Ai strategies </span>{" "}
-            <span>-large scale ai-driven digital transformation</span>{" "}
-            <span>-Smart Technology </span>{" "}
-            <span>-sustainable development</span>
-            <span>-smart cities</span>
+            <span>Large Scale infrastructure Projects</span>{" "}
+            <span>National Ai strategies </span>{" "}
+            <span>large scale ai-driven digital transformation</span>{" "}
+            <span>Smart Technology </span> <span>sustainable development</span>
+            <span>smart cities</span>
           </motion.p>
           <motion.button
             initial={{ opacity: 0, y: 40 }}
