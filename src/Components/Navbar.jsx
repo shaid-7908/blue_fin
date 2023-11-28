@@ -10,10 +10,10 @@ function Navbar() {
     setNav(!nav);
   };
   return (
-    <div className="flex md:flex-row justify-around items-center h-24 bg-[#1f3878] bg-opacity-50  mx-auto px-4 text-white uppercase ">
+    <div className="flex md:flex-row md:justify-around justify-between items-center h-24 bg-[#17204d] bg-opacity-50  mx-auto px-4 text-white uppercase ">
       <div className="flex flex-col justify-center items-center">
-        <img src={logo} className="w-[100px]" />
-        <h1 className=" text-base font-bold text-gold-theme">
+        <img src={logo} className="md:w-[100px] w-[80px] " />
+        <h1 className=" text-base md:block1 font-bold text-gold-theme hidden">
           BLUEFIN GOLD GROUP .
         </h1>
       </div>
@@ -36,17 +36,17 @@ function Navbar() {
       <ul
         className={
           nav
-            ? "fixed left-0 top-0 w-[90%] h-full border-r border-r-gray-900 bg-black ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-[90%] h-full border-r border-r-gray-100 bg-[#17204d] ease-in-out duration-500"
             : "ease-in-out duration-500 fixed left-[-100%]"
         }
       >
         <h1 className="w-full text-3xl font-bold text-gold-theme m-4 ">
           BLUFFIN GOLD GROUP .
         </h1>
-        <li className="p-4 border-b border-gray-600">Home</li>
-        <li className="p-4 border-b border-gray-600">Company</li>
-        <li className="p-4 border-b border-gray-600">Resources</li>
-        <li className="p-4 border-b border-gray-600">About</li>
+        <li className="p-4 border-b border-gray-100">Home</li>
+        <li className="p-4 border-b border-gray-100">Company</li>
+        <li className="p-4 border-b border-gray-100">Resources</li>
+        <li className="p-4 border-b border-gray-100">About</li>
         <li className="p-4">Contact</li>
       </ul>
     </div>

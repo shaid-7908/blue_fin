@@ -8,7 +8,7 @@ function About() {
         <div className="bg-red-500">
           <iframe
             className="w-[100%] h-[100%]"
-            src="https://www.youtube.com/embed/AqM2yAHmpaY"
+            src="https://www.youtube.com/embed/pWOv9xcoMeY"
             title="Yt"
           />
         </div>
