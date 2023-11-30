@@ -9,7 +9,7 @@ function Hero() {
     <>
       {/* <Particles1 /> */}
       <div className="text-white ">
-        <div className="max-w-[1000px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center ">
+        <div className="max-w-[1000px] mt-[-96px] w-full md:h-screen h-screen mx-auto text-center flex flex-col justify-center ">
           <motion.p
             initial={{ opacity: 0, y: -40 }}
             whileInView={{ opacity: 1, y: 0 }}
