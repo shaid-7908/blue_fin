@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import logo from "../assets/blue_logo.png";
+import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 
 function Navbar() {
@@ -14,7 +15,7 @@ function Navbar() {
       <div className="flex flex-col justify-center items-center">
         <img src={logo} className="md:w-[100px] w-[80px] " />
         <h1 className=" text-base  font-bold text-gold-theme ">
-          BLUEFIN GOLD GROUP 
+          BLUEFIN GOLD GROUP
         </h1>
       </div>
       <motion.ul
@@ -24,10 +25,14 @@ function Navbar() {
         transition={{ duration: 0.4 }}
         className="hidden md:flex md:font-semibold"
       >
-        <li className="p-4 cursor-pointer hover:text-gold-theme">Home </li>
+        <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>
+          <li className="p-4 cursor-pointer hover:text-gold-theme">Home </li>
+        </Link>
         <li className="p-4 cursor-pointer hover:text-gold-theme">Approach</li>
         <li className="p-4 cursor-pointer hover:text-gold-theme">Portfolio</li>
-        <li className="p-4 cursor-pointer hover:text-gold-theme">About</li>
+        <Link to="about" spy={true} smooth={true} offset={0} duration={500}>
+          <li className="p-4 cursor-pointer hover:text-gold-theme">About</li>
+        </Link>
         <li className="p-4 cursor-pointer hover:text-gold-theme">Contact</li>
       </motion.ul>
       <div onClick={handleNav} className="block md:hidden text-gold-theme">
@@ -41,13 +46,37 @@ function Navbar() {
         }
       >
         <h1 className="w-full text-2xl font-bold text-gold-theme m-4 ">
-          BLUEFIN GOLD GROUP 
+          BLUEFIN GOLD GROUP
         </h1>
-        <li className="p-4 border-b border-gray-100">Home</li>
-        <li className="p-4 border-b border-gray-100">Company</li>
-        <li className="p-4 border-b border-gray-100">Resources</li>
-        <li className="p-4 border-b border-gray-100">About</li>
-        <li className="p-4">Contact</li>
+        <Link
+          to="hero"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          onClick={handleNav}
+        >
+          <li className="p-4 border-b border-gray-100">Home</li>
+        </Link>
+        <li className="p-4 border-b border-gray-100" onClick={handleNav}>
+          Company
+        </li>
+        <li className="p-4 border-b border-gray-100" onClick={handleNav}>
+          Resources
+        </li>
+        <Link
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          onClick={handleNav}
+        >
+          <li className="p-4 border-b border-gray-100">About</li>
+        </Link>
+        <li className="p-4" onClick={handleNav}>
+          Contact
+        </li>
       </ul>
     </div>
   );

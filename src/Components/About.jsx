@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function About() {
   return (
-    <div className="w-full z-50 bg-gray-200  py-16 px-4">
+    <div className="w-full z-50 bg-gray-200 lg:py-1  py-16 px-4" id="about">
       <div className="max-w-[1240px] mx-auto flex justify-center items-center">
         <div className="flex flex-col  justify-center md:w-[60%] items-center  md:ml-8">
           <motion.p
@@ -11,7 +11,7 @@ function About() {
             viewport={{ once: true }}
             whileInView={{ opacity: 1, y: 0, amount: 0.5 }}
             transition={{ duration: 0.5 }}
-            className="md:text-4xl sm:text-3xl text-2xl font-semibold py-2 text-gold-theme font-popins "
+            className="md:text-4xl sm:text-3xl text-2xl font-semibold py-2 lg:py-1 text-gold-theme font-popins "
           >
             About Us
           </motion.p>
@@ -21,7 +21,7 @@ function About() {
             viewport={{ once: true }}
             whileInView={{ opacity: 1, y: 0, amount: 0.5 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-black font-popins text-center"
+            className="text-black font-popins text-center my-4"
           >
             <span className="text-gold-theme">BLUEFIN GOLD GROUP</span> is a
             company involved in the implementation of{" "}
@@ -38,14 +38,14 @@ function About() {
          
         </div>
       </div>
-      <div className="max-w-[1240px] mx-auto flex justify-center items-center my-2 ">
+      <div className="max-w-[1240px] mx-auto flex justify-center items-center my-2 lg:my-1">
         <div className="flex flex-col justify-center items-center md:w-[60%] md:ml-8">
           <motion.p
             initial={{ opacity: 0, y: 40 }}
             viewport={{ once: true }}
             whileInView={{ opacity: 1, y: 0, amount: 0.5 }}
             transition={{ duration: 0.5 }}
-            className="md:text-xl sm:text-xl text-2xl font-semibold py-2 text-gold-theme font-popins "
+            className="md:text-xl sm:text-xl text-2xl font-semibold py-2 lg:py-1 text-gold-theme font-popins "
           >
             Investing in
           </motion.p>
@@ -105,14 +105,14 @@ function About() {
           </motion.button>
         </div> */}
       </div>
-      <div className="max-w-[1240px] mx-auto flex justify-center items-center my-2 ">
+      <div className="max-w-[1240px] mx-auto flex justify-center items-center my-2 lg:my-1">
         <div className="flex flex-col justify-center md:w-[60%] items-center  md:ml-8">
           <motion.p
             initial={{ opacity: 0, y: 40 }}
             viewport={{ once: true }}
             whileInView={{ opacity: 1, y: 0, amount: 0.5 }}
             transition={{ duration: 0.5 }}
-            className="md:text-xl sm:text-xl text-2xl font-semibold py-2 text-gold-theme font-popins "
+            className="md:text-xl sm:text-xl text-2xl font-semibold py-2 lg:py-1 text-gold-theme font-popins "
           >
             Implementing
           </motion.p>
