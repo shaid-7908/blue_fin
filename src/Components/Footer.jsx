@@ -2,11 +2,11 @@
 import {
   FaDribbbleSquare,
   FaFacebookSquare,
-  FaGithubSquare,
   FaInstagram,
+  FaLinkedin,
   FaTwitterSquare,
 } from "react-icons/fa";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 function Footer() {
   return (
@@ -16,7 +16,7 @@ function Footer() {
           BLUEFIN GOLD GROUP{" "}
         </h1>
 
-        <p className="py-1">
+        {/* <p className="py-1">
           <span className="font-semibold text-gold-theme">Investing</span> &{" "}
           <span className="font-semibold text-gold-theme">Implementing</span>{" "}
           <span>Large Scale infrastructure Projects</span>,{" "}
@@ -24,18 +24,19 @@ function Footer() {
           <span>large scale ai-driven digital transformation</span>,{" "}
           <span>Smart Technology </span>, <span>sustainable development</span>,
           <span>smart cities</span>
-        </p>
+        </p> */}
+        <p className="py-1 font-semibold text-gray-500">&copy; 2023 BLUEFIN GOLD GROUP</p>
 
-        <div className="flex lg:justify-start justify-between md:w-[75%] my-6 text-black">
+        <div className="flex lg:justify-start justify-between md:w-[75%] my-6 text-gray-500">
           <FaFacebookSquare size={30} />
           <FaInstagram size={30} className="lg:mx-1" />
           <FaTwitterSquare size={30} className="lg:mx-1" />
-          <FaGithubSquare size={30} className="lg:mx-1" />
+          <FaLinkedin size={30} className="lg:mx-1" />
           <FaDribbbleSquare size={30} className="lg:mx-1" />
         </div>
       </div>
-      <hr/>
-        <div className="lg:col-span-2 flex justify-between mt-6">
+      <hr />
+      {/* <div className="lg:col-span-2 flex justify-between mt-6">
         <div className="text-left md:flex-col md:items-start">
           <h1 className="font-bold text-gold-theme">Menu</h1>
           <ul className="lg:flex">
@@ -66,7 +67,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        {/* <div>
+        <div>
           <h6 className="font-medium text-gold-theme">Support</h6>
           <ul>
             <li className="py-2 text-sm">Pricing</li>
@@ -74,8 +75,8 @@ function Footer() {
             <li className="py-2 text-sm">Guides</li>
             <li className="py-2 text-sm">API Status</li>
           </ul>
-        </div> */}
-        {/* <div>
+        </div>
+        <div>
           <h6 className="font-medium text-gold-theme">Company</h6>
           <ul>
             <li className="py-2 text-sm">About</li>
@@ -84,17 +85,16 @@ function Footer() {
             <li className="py-2 text-sm">Press</li>
             <li className="py-2 text-sm">Careers</li>
           </ul>
-        </div> */}
-        {/* <div>
+        </div>
+        <div>
           <h6 className="font-medium text-gold-theme">Legal</h6>
           <ul>
             <li className="py-2 text-sm">Claim</li>
             <li className="py-2 text-sm">Policy</li>
             <li className="py-2 text-sm">Terms</li>
           </ul>
-        </div> */}
-      </div>
-      
+        </div>
+      </div> */}
     </div>
   );
 }

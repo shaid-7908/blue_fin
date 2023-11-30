@@ -28,12 +28,19 @@ function Navbar() {
         <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>
           <li className="p-4 cursor-pointer hover:text-gold-theme">Home </li>
         </Link>
-        <li className="p-4 cursor-pointer hover:text-gold-theme">Approach</li>
-        <li className="p-4 cursor-pointer hover:text-gold-theme">Portfolio</li>
+
         <Link to="about" spy={true} smooth={true} offset={0} duration={500}>
           <li className="p-4 cursor-pointer hover:text-gold-theme">About</li>
         </Link>
-        <li className="p-4 cursor-pointer hover:text-gold-theme">Contact</li>
+        <Link
+          to="newsletter"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
+          <li className="p-4 cursor-pointer hover:text-gold-theme">Contact</li>
+        </Link>
       </motion.ul>
       <div onClick={handleNav} className="block md:hidden text-gold-theme">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -58,12 +65,7 @@ function Navbar() {
         >
           <li className="p-4 border-b border-gray-100">Home</li>
         </Link>
-        <li className="p-4 border-b border-gray-100" onClick={handleNav}>
-          Company
-        </li>
-        <li className="p-4 border-b border-gray-100" onClick={handleNav}>
-          Resources
-        </li>
+
         <Link
           to="about"
           spy={true}
@@ -74,9 +76,17 @@ function Navbar() {
         >
           <li className="p-4 border-b border-gray-100">About</li>
         </Link>
-        <li className="p-4" onClick={handleNav}>
-          Contact
-        </li>
+        <Link
+          to="newsletter"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
+          <li className="p-4" onClick={handleNav}>
+            Contact
+          </li>
+        </Link>
       </ul>
     </div>
   );

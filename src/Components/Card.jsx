@@ -5,7 +5,7 @@
 
 function Card() {
   return (
-    <div className="w-full py-[10rem] px-4 bg-gray-200">
+    <div className="w-full py-[10rem] px-4 bg-gray-200" id="card">
       <div className="max-w-[1240px] mx-auto ">
         <span className="text-gold-theme font-bold">OUR APPROACH</span>
         <h2 className="text-black md:text-5xl font-bold font-popins my-2">
